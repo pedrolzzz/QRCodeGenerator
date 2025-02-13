@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bliblioteca do QR code  -->
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="box">
+            <h1>
+                Gerador de QR Code
+            </h1>
+            <hr />
+            <div class="sqrcode"></div>
+            <div class="qrcode"></div>
+            <input type="text" 
+                   placeholder="Insira sua URL ou Texto" 
+                   onchange="generateQr()" />
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
